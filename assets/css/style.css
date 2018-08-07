@@ -1,0 +1,238 @@
+/* GENERAL PAGE SETUP */
+/* ------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+style {
+    background-color: #ffffff;
+}
+
+body {
+    background-image: url("../images/Background.png");
+}
+
+.content {
+    position: relative;
+    top: 40px;
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h1 {
+    position: absolute;
+    top: 0px;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 32px;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    float: right;
+    padding: 39px;   
+}
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+    color:  #777777;
+    width: 960px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #666666;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    border-top: 5px solid #4aaaa5;
+    color: white;
+    padding-bottom: 0px;
+}
+
+.subheader-border {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #dddddd;
+}
+
+.white-space {
+    background-color: #ffffff;
+    height: 90px;
+}
+
+.about {
+    border-right: 1px solid #efefef;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact {
+    border-left: 1px solid #efefef;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* INDEX.HTML CSS */
+/* -------------- */
+
+.profile-pic {
+    float: left;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 250px;
+}
+
+.footer-index {
+    bottom: 0px;
+}
+
+/* PORTFOLIO.HTML CSS */
+/* ------------------ */
+
+.label {
+    width: 250px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+.label-left {
+    position: absolute;
+    left: 30px;
+}
+
+.label-right {
+    position: absolute;
+    left: 340px;
+}
+
+.label-first-row {
+    position: absolute;
+    top: 230px;
+}
+
+.label-second-row {
+    position: absolute;
+    top: 490px;
+}
+
+.label-third-row {
+    position: absolute;
+    top: 750px;
+}
+
+.column-1 {
+    float: left;
+}
+
+.empty-image {
+    height: 230px;
+    margin: 30px;
+}
+
+.projects {
+    margin: 30px;
+    width: 250px;
+    height: 200px;
+}
+
+.footer-portfolio {
+    bottom: -450px;
+}
+
+/* CONTACT.HTML CSS */
+/* ---------------- */
+
+form {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea{
+    width: 900px;
+    border: 1px solid #dddddd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+input {
+    width: 900px;
+    border: 1px solid #dddddd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.message{
+    height: 100px;
+}
+
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer-contact {
+    bottom: -100px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
