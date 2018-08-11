@@ -7,54 +7,51 @@
     <body>
 
 
-        <div class="links">
-            <a class="about" href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a class="contact" href="contact.html">Contact</a>
-        </div>
-        <div class=white-space>
-            <p></p>
-        </div>
-        <div class=header>    
-            <h1>Nathan Niesel</h1> 
+        <div class="top">
+            <div class = "container">
+                <h1>Nathan Niesel</h1> 
+                <div class="links">
+                    <div class="links-box">
+                        <a class="about" href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a class="contact" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>            
         </div>
 
-        <div class=content>       
+        <div id="main-container" class="container">
+            <section class="main-section">   
             <h2>Portfolio</h2>
             <div class=subheader-border></div>
-            <ul class="rows">
-                <li class="column-1">
-                    <ul>
-                        <li><img class="projects" src="assets/images/hangman.jpg" alt="Hangman"></li>
-                        <li><img class="projects" src="assets/images/trivia.jpg" alt="Trivia"></li>
-                        <li><img class="projects" src="assets/images/rock-paper-scissors.jpg" alt="Rock-Paper-Scissors"></li>   
-                    </ul>
-                </li>
-                <li class="column">
-                    <ul>
-                        <li><img class="projects" src="assets/images/role-playing.jpg" alt="Role Playing"></li>
-                        <li><img class="projects" src="assets/images/widget.jpg" alt="Widget"></li>
-                        <li class="empty-image"></li>
-                    </ul>
-                </li>   
-            </ul>
 
-            <ul class="rows">
-                <li class="column-1">
-                    <ul>
-                        <li><p class="label label-first-row label-left">Hangman</p></li>
-                        <li><p class="label label-second-row label-left">Trivia Game</p></li>
-                        <li><p class="label label-third-row label-left">Rock Paper Scissors</p></li>   
-                    </ul>
-                </li>
-                <li class="column">
-                    <ul>
-                        <li><p class="label label-first-row label-right">RPG Game</p></li>
-                        <li><p class="label label-second-row label-right">Rutgers Info Widget</p></li>
-                    </ul>
-                </li>   
-            </ul>
-            
+            <div class="projects">
+                <img src="assets/images/Hangman.jpg" alt="Hangman">
+                
+                <h3 class="label">Hangman</h3>
+              </div>
+              <div class="projects">
+                <img src="assets/images/role-playing.jpg" alt="RPG Game">
+        
+                <h3 class="label">RPG Game</h3>
+              </div>
+              <div class="projects">
+                <img src="assets/images/trivia.jpg" alt="Trivia Game">
+        
+                <h3 class="label">Trivia Game</h3>
+              </div>
+              <div class="projects">
+                <img src="assets/images/widget.jpg" alt="Rutgers Info Widget">
+        
+                <h3 class="label">Rutgers Info Widget</h3>
+              </div>
+              <div class="projects">
+                <img src="assets/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors">
+        
+                <h3 class="label">Rock Paper Scissors</h3>
+              </div>
+            </section>
+
         </div>
         <p class="footer footer-portfolio">Copyright &copy;</p>
     </body>
